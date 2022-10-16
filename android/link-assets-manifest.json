@@ -1,0 +1,349 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "node_modules/@react-native-voice/voice/.circleci/config.yml",
+      "sha1": "31f3880af3dfffbbf1dc35c0758ff42c4e8c83f7"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/.eslintrc",
+      "sha1": "db293e0ed94230b6a8dea2711178656e3547ab3e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/.prettierrc",
+      "sha1": "e01852de140113332a35736dcce008f8a89ae2ac"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/.releaserc",
+      "sha1": "a064e80b8873e85d9bf226de47608db8b5e7249f"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/android.iml",
+      "sha1": "848b54ee996d8d77cc408edb5a18eefc9bf4c3d2"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/build.gradle",
+      "sha1": "fb091f4b9e77bd81645f42026cbe8a4e7067a6c0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha1": "ffaf4ced158f4d99995aeac7db7aedcbd95f577d"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/gradlew",
+      "sha1": "6409d6256df6b2f9e2142183b4c6408823a10f6a"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/gradlew.bat",
+      "sha1": "cf68b95a4029e352fe1ee002bb367ac1b686f9ad"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/react-native-voice.iml",
+      "sha1": "e6cfe1b9c4f7b1a702becdf70e7961df8a1aa508"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/src/main/AndroidManifest.xml",
+      "sha1": "f7dfffb539ab8b135f928a23af1e9103b45a6582"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/src/main/java/com/wenkesj/voice/VoiceModule.java",
+      "sha1": "8694350bd6aa273c5bab60a55304bc465500226e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/android/src/main/java/com/wenkesj/voice/VoicePackage.java",
+      "sha1": "4ad416efe7082b691f749d11103bb6d9b38876a1"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/app.plugin.js",
+      "sha1": "ea0dbadb718d958ada6c1f6cc8eaf0a7f52c04cb"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/index.d.ts",
+      "sha1": "3286cb2ded3a9f2323beeb3432bfc77945a46c0b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/index.d.ts.map",
+      "sha1": "8c42c9006f2536b17f7c07bcb015a4f77fc17818"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/index.js",
+      "sha1": "103b6a9af3c7f19c9a35837202e1cad2e08beeb9"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.d.ts",
+      "sha1": "521bd80550904d62cf4b15e44d338703da34285a"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.d.ts.map",
+      "sha1": "35d6e4dc0917126578e7da95b06e6bf777a2d812"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.js",
+      "sha1": "b66edae489b6e4147ce7e1ec65a107e297219771"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/.buckconfig",
+      "sha1": "0393c93485288ee1846b20bdff45df1c7c601db1"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/.flowconfig",
+      "sha1": "230bcf86da895f2e06cb03d5279b1c4f6ee4309b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/.gitattributes",
+      "sha1": "87455bd92becbdf6471468c2d48ef6408a335e18"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/.prettierrc.js",
+      "sha1": "76aee2769048ee5f9fa74485115f18329549d65d"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/build.gradle",
+      "sha1": "609e3f653bbe5043715241f5c0df6ae6cdd736c5"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/build_defs.bzl",
+      "sha1": "ccbb3e13b30cfd2be55b5cc188b4a5034a1f39a2"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/debug.keystore",
+      "sha1": "c35d81edc0f9465ba2ab611b697d3aa49e012b5c"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/proguard-rules.pro",
+      "sha1": "eed46b399dc223622453e910293a06eb159d87e0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/debug/AndroidManifest.xml",
+      "sha1": "a40fc255e0c627a3a55e5d8673cb4708d930aaf0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/AndroidManifest.xml",
+      "sha1": "d25b1d05c8cae98b116e98b5238dc2dfeefcbc54"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha1": "db390841db6f957a841d24d5395bb0050d7c688b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "sha1": "51bb62e7e3e25e2b4497c269b4ee9cb19692c98a"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha1": "ca824b1bc429582b3814e6bacfdbbd00fdb929f5"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "sha1": "cb7670e36f2b0743742f2d650fd9355c745095cc"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha1": "1a2178504072be1ebf305b98d597c299c4827725"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "sha1": "8b1be88dcb4c72de1951f2312234396d23aa06af"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha1": "82235d26102795c82e23d0aa59c2074009449bcd"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "sha1": "ea10093f00fc43f87fd91a5a40693fe7d5abd4c0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha1": "d3e63b530ad9354fff71a89829f36ee15e13c1c1"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "sha1": "8a2b5e5fca0ded629d094c21376434457a7f3883"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/values/strings.xml",
+      "sha1": "7494962e35ac2a96767f997ef0cf8742822cd066"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/src/main/res/values/styles.xml",
+      "sha1": "9bc44c60a2e80878c3284a273123870f83d63d06"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/app/_BUCK",
+      "sha1": "be756591afbeea9824d1f9b9ce0896ba54523a60"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/build.gradle",
+      "sha1": "7f48e5237a98daed476b3e5e6b41483984e545d8"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/gradle/wrapper/gradle-wrapper.properties",
+      "sha1": "e3a6e5cceaef56c93ebe8dc5d977b525c7c93c8d"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/gradle.properties",
+      "sha1": "ea1a7d9097c2948da07d859f9fd46560cb1495c2"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/gradlew",
+      "sha1": "78eee188527809cd821844887e2978d5bae6bb30"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/gradlew.bat",
+      "sha1": "712beae1f70dd7f239e331cb8d371295b4828805"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/android/settings.gradle",
+      "sha1": "885af818ca5af7548ffa56205e093bdd532c7136"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/app.json",
+      "sha1": "4c451cdd5c0d741a9b88329c204e08631969d20b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/babel.config.js",
+      "sha1": "267f99fd441e7926ca47e225cc8a0f8825515f3d"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/index.js",
+      "sha1": "a595379dace06088dd8e5fed56c988df80be9928"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/Podfile",
+      "sha1": "cd466dcd295cd40a39b2ef83e3665da96b23fff6"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/Podfile.lock",
+      "sha1": "4cf12a338ed2440a5f6364af26fafad396ce16e0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest-tvOS/Info.plist",
+      "sha1": "8e16a83555e601ef2c2aa6fadf22011a0e5c5b8e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest-tvOSTests/Info.plist",
+      "sha1": "efb43259ef585770d3cb6c94c8cbb7e052265300"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/project.pbxproj",
+      "sha1": "b5964813a68be1f157abee35e7486a9fdee2c8d8"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/xcshareddata/xcschemes/VoiceTest-tvOS.xcscheme",
+      "sha1": "4b8a41d670d21d6b4b36f9a951652b56edc5feec"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/xcshareddata/xcschemes/VoiceTest.xcscheme",
+      "sha1": "fafc253406800f6cbda6449ed73a206510165110"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcworkspace/contents.xcworkspacedata",
+      "sha1": "7625cea24f07517aca0f940d7fc98c6c484f5459"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTestTests/Info.plist",
+      "sha1": "4239984ce09b6ec99e648d940c44a645b1accf61"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/ios/VoiceTestTests/VoiceTestTests.m",
+      "sha1": "398fb9cfcd5fede4224afb7dc4fc26c79f2268e7"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/metro.config.js",
+      "sha1": "630dc1b28f057c33833ab9e50009f9a7896f48bb"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/package.json",
+      "sha1": "c67813aca0c56d3304116b2f569830f9a41d62cf"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/redirect-ports.sh",
+      "sha1": "7beedd799a0b1e45886d76e4cff8628cae3d16bf"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/src/button.png",
+      "sha1": "a6d276528cacbe3b96857731986c022ee0574a6f"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/src/VoiceTest.tsx",
+      "sha1": "4042c646521329af92733865de7f4eef03509cac"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/src/VoiceTestFuncComp.tsx",
+      "sha1": "2d082fb6724a492b72353b33e82ec1d00f5b0ee0"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/tsconfig.json",
+      "sha1": "008b1a005102162ace85332532481ca843e2d61b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/example/yarn.lock",
+      "sha1": "470fb45aca997eac974e0420fff3997043e427e7"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/ios/Voice/Voice.h",
+      "sha1": "25e5a1d5ce091016a39dc675995fe5038f96a8ee"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/ios/Voice/Voice.m",
+      "sha1": "2b4b2fce32b2ffd6e4b834b67db8ee29679a2cd9"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.pbxproj",
+      "sha1": "822d5f7d603a3d1bf433240afe40a42ac86e379e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha1": "e45f59544b297b844ac4a499a9100b1e63904ef3"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.xcworkspace/xcuserdata/rudie_shahinian.xcuserdatad/UserInterfaceState.xcuserstate",
+      "sha1": "117678da6a3a440f4feb45a435967ffef3c9465c"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/LICENSE",
+      "sha1": "e3873a93169bee8893abc7c64d5c12059f3f530b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/package.json",
+      "sha1": "8b3024a302ccd355b8596e3d4ef86dbfdf9626d4"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/plugin/build/withVoice.d.ts",
+      "sha1": "00a088096ccf528467b73b007896a2489f903ef8"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/plugin/build/withVoice.js",
+      "sha1": "3b7ffdc6eb424c0cfe934d5d4f16bccab0d61adc"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/plugin/src/withVoice.ts",
+      "sha1": "0f4b225cbad9b84e1af3ad7a071e4ad242c4c47b"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/plugin/tsconfig.json",
+      "sha1": "00610cc05a7b4959ce064cfac1b1febdba73a78e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/react-native-voice.podspec",
+      "sha1": "8572febdeb28df8a688958de2fda2872ab339880"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/README.md",
+      "sha1": "ea416523adbc1932fc4a9f33afdf810f0799a416"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/src/index.ts",
+      "sha1": "14c38eb85642ecc73e9470840037c4046cc2c2ce"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/src/VoiceModuleTypes.ts",
+      "sha1": "ff0d3cf1a002a1149ab98dfcdd29cd13b1c3850e"
+    },
+    {
+      "path": "node_modules/@react-native-voice/voice/tsconfig.json",
+      "sha1": "7b8c731b25da0da16f8ea642c8ab4d8e49382b8d"
+    }
+  ]
+}

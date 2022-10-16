@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ReactNativeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeDemoTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-ReactNativeDemo-ReactNativeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo-ReactNativeDemoTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		38CA8DA2823D48899C70759A /* config.yml in Resources */ = {isa = PBXBuildFile; fileRef = 01E84FF787C943CBB482FE83 /* config.yml */; };
+		57939784A2B6459AB41D248D /* .eslintrc in Resources */ = {isa = PBXBuildFile; fileRef = B454D240613C4B3897E8525D /* .eslintrc */; };
+		006AA73BA92B45028B8EAA92 /* .prettierrc in Resources */ = {isa = PBXBuildFile; fileRef = 0DABFAFE4F914664B812183C /* .prettierrc */; };
+		9734E11BFD6A4CE7B6A3B12E /* .releaserc in Resources */ = {isa = PBXBuildFile; fileRef = 5209D060C8AE4F44BE712360 /* .releaserc */; };
+		2C788F923C714C6EBFEA90F8 /* android.iml in Resources */ = {isa = PBXBuildFile; fileRef = 4632971EC4C24C20BD6DD531 /* android.iml */; };
+		782789EEA93B41BFB2439907 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = F5A112FF055F4BEBB4E83036 /* build.gradle */; };
+		66AC54FFB5AA40C1B1686F87 /* gradle-wrapper.properties in Resources */ = {isa = PBXBuildFile; fileRef = DAB944DECE79418CB573DDB1 /* gradle-wrapper.properties */; };
+		8D8D757C8B5F452589A0CED5 /* gradlew in Resources */ = {isa = PBXBuildFile; fileRef = A0839F7FBA814745B451DE4D /* gradlew */; };
+		73655E78941A4E69BED2D877 /* gradlew.bat in Resources */ = {isa = PBXBuildFile; fileRef = B70DFD5A8B9844859F4D88DF /* gradlew.bat */; };
+		5554044142904BA5997D356E /* react-native-voice.iml in Resources */ = {isa = PBXBuildFile; fileRef = 70FF9D1BDEDB4331AB0CE468 /* react-native-voice.iml */; };
+		9446FC9B20954D219D096B3D /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 869DE84957644920BCE5F8E1 /* AndroidManifest.xml */; };
+		5AB575D3FBF640AFBC7F3A7B /* VoiceModule.java in Resources */ = {isa = PBXBuildFile; fileRef = 387E8FDDAE8A49DD8031413B /* VoiceModule.java */; };
+		6AE73DBCA1484BAF834265D1 /* VoicePackage.java in Resources */ = {isa = PBXBuildFile; fileRef = AA03E8BCBE934980BA33C9A8 /* VoicePackage.java */; };
+		A2DC1DEB57274C52A2523148 /* app.plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 70C1074F5A0347D0ADAC3375 /* app.plugin.js */; };
+		13CD38F855784DBCA60F29FD /* index.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = 55A710955446429D9634C026 /* index.d.ts */; };
+		C4D723BDA04C481D8D668E88 /* index.d.ts.map in Resources */ = {isa = PBXBuildFile; fileRef = 0743473618AF4CF5A31302A1 /* index.d.ts.map */; };
+		C331DE08B7E04BE393D5C8AF /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = A7D9E96D51DF483D8213613F /* index.js */; };
+		DD9F62E669D441DE84B1A826 /* VoiceModuleTypes.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF7B10507F483594C1D467 /* VoiceModuleTypes.d.ts */; };
+		A61DF04EA2D645C188C5275E /* VoiceModuleTypes.d.ts.map in Resources */ = {isa = PBXBuildFile; fileRef = 840AC1DE9D164D23A73E6754 /* VoiceModuleTypes.d.ts.map */; };
+		AE853CB592064070A9E7E914 /* VoiceModuleTypes.js in Resources */ = {isa = PBXBuildFile; fileRef = E28652C579AF44FFA7DA510D /* VoiceModuleTypes.js */; };
+		1F4B940DBE72464DABECAC49 /* .buckconfig in Resources */ = {isa = PBXBuildFile; fileRef = 129F548245814CB8930E9D3D /* .buckconfig */; };
+		211A5C898581493EBB3BAEFC /* .flowconfig in Resources */ = {isa = PBXBuildFile; fileRef = E242B108F8F142EA831F6A91 /* .flowconfig */; };
+		373EFD06A7D44BB093EA8F11 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5C3E28C6B4BA436C85331DF9 /* .gitattributes */; };
+		521FC158E5884D0FA153D188 /* .prettierrc.js in Resources */ = {isa = PBXBuildFile; fileRef = FB85D97E7D554C58AAA00B8F /* .prettierrc.js */; };
+		C143125445114642AA95E9F8 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = F76C5AB23D3445D0BC8A845A /* build.gradle */; };
+		F0774D8C28E046F7AC872A62 /* build_defs.bzl in Resources */ = {isa = PBXBuildFile; fileRef = 14A6CEFE26064A039E24C2EE /* build_defs.bzl */; };
+		AC4F5EDCE61D4EF39EB32887 /* debug.keystore in Resources */ = {isa = PBXBuildFile; fileRef = 64FDAE56365E46569F43C6B4 /* debug.keystore */; };
+		5F120D426796469E928442F6 /* proguard-rules.pro in Resources */ = {isa = PBXBuildFile; fileRef = 2701FE2A24F64DD8B6BAA5F2 /* proguard-rules.pro */; };
+		C7F0AAF7AF17432B9985200E /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6EA272B1A4C3CBF32D49B /* AndroidManifest.xml */; };
+		A6F10133E87F4E2983A8A07C /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 78F596E1557D48B5BC4A2105 /* AndroidManifest.xml */; };
+		221234F53FEE42C0B3479335 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 515BD71DEA1246F1A54E1AFC /* ic_launcher.png */; };
+		D3C597614C1A43B5B814E532 /* ic_launcher_round.png in Resources */ = {isa = PBXBuildFile; fileRef = 605583BA9B5C496CB52A9425 /* ic_launcher_round.png */; };
+		92AD24BCCD4A4CFFBB4BCB7D /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 2878BC8AC50B420C95DDD49B /* ic_launcher.png */; };
+		D1C73EB407CC419497E6292B /* ic_launcher_round.png in Resources */ = {isa = PBXBuildFile; fileRef = CC138B13794042758F3E5051 /* ic_launcher_round.png */; };
+		27862C60C6F3423880274944 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = B09079BDB12C459B8BE0F614 /* ic_launcher.png */; };
+		8966F349FBB7404F9161C978 /* ic_launcher_round.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA36DD1E2E4F58B91670CB /* ic_launcher_round.png */; };
+		057EBA2DD9E24B2E9B264651 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 12C1DB06D8D747F4AB8778F2 /* ic_launcher.png */; };
+		FA21C2DBC95F4D6AB67AF651 /* ic_launcher_round.png in Resources */ = {isa = PBXBuildFile; fileRef = 23134D18FF9E4D3892A63C82 /* ic_launcher_round.png */; };
+		999E7F7A9B4D417A9BBA650E /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FA028B1B3364B04AD31A5F1 /* ic_launcher.png */; };
+		8582F002BDE24CCF9EDA7183 /* ic_launcher_round.png in Resources */ = {isa = PBXBuildFile; fileRef = D857F489D2A44D6AB1724AF6 /* ic_launcher_round.png */; };
+		16682AAF346F40768A029F9C /* strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = FABDD7FA21D946A797611EB7 /* strings.xml */; };
+		13F0F3D66C524B84AED95835 /* styles.xml in Resources */ = {isa = PBXBuildFile; fileRef = 896654D2948741558E1AA634 /* styles.xml */; };
+		11F6CA053BA54B85AEADF7FD /* _BUCK in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D244D81C487A9772F9A6 /* _BUCK */; };
+		B6BFFB4216C545A58F779A25 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 8030C7BE73884765B967E79B /* build.gradle */; };
+		08E065C2BB9E4B53A9F8F7CE /* gradle-wrapper.properties in Resources */ = {isa = PBXBuildFile; fileRef = 27323E09CB2C409BACB456E9 /* gradle-wrapper.properties */; };
+		53978567AF5C448EB0CF4951 /* gradle.properties in Resources */ = {isa = PBXBuildFile; fileRef = 8A7083E8B6854C44864B10B7 /* gradle.properties */; };
+		C4AF75EC29534EDBB9C0111A /* gradlew in Resources */ = {isa = PBXBuildFile; fileRef = 6937E1F772374679A1556FA3 /* gradlew */; };
+		FA6FEAAFD9A847A883C81178 /* gradlew.bat in Resources */ = {isa = PBXBuildFile; fileRef = 43DCDE3264DF410F93FB9D46 /* gradlew.bat */; };
+		FFA377AF1122437FB5137CB8 /* settings.gradle in Resources */ = {isa = PBXBuildFile; fileRef = D6E938DBD91F4BAF90DE46E4 /* settings.gradle */; };
+		0A33BDED8E1C4BF099E3235E /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = 70A123ECF0B04729B26525B0 /* app.json */; };
+		3D80E603A1B1405299D9A4E5 /* babel.config.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D6E3B81B8D74C7582164311 /* babel.config.js */; };
+		849629164DE140C780EF8A6A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = C14C76FBDB704537A5731750 /* index.js */; };
+		7A02F72784124FB386922049 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4992004F30DC4F1482A9E2DC /* Podfile */; };
+		FF4F04D9DFAF4587AE356FCB /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 1D0B7F6DC8C84408BD2DCDC6 /* Podfile.lock */; };
+		1E0C1C853BF54714ACBDF396 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE27DA0724104C22930BC17D /* Info.plist */; };
+		93452DFE22A847C1BEA76F0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3454636F3962463EAAF95358 /* Info.plist */; };
+		12ACD5B334E149A7A80C636A /* project.pbxproj in Resources */ = {isa = PBXBuildFile; fileRef = 02EADFADAE414CB5968C79B4 /* project.pbxproj */; };
+		9ACFC53EA9E749E38F825850 /* VoiceTest-tvOS.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 488AB573F23B485D8964BF3C /* VoiceTest-tvOS.xcscheme */; };
+		2A3605B862FF454B8528DE06 /* VoiceTest.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = CB6D0755E63B41B4B6EC72D0 /* VoiceTest.xcscheme */; };
+		867EFBE001B747EBB546546C /* contents.xcworkspacedata in Resources */ = {isa = PBXBuildFile; fileRef = 02C32D4E0A294927B8A22945 /* contents.xcworkspacedata */; };
+		946870E841A94E498D669A60 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D14310F0BB6E4A4F89E798E7 /* Info.plist */; };
+		1D0E23E40EBC4E549F8E8F58 /* VoiceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 565E1272B88041E4A813F8F1 /* VoiceTestTests.m */; };
+		C7EBFD7366474896B5F88376 /* metro.config.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C43FDB4DED9453390965FE6 /* metro.config.js */; };
+		9EB5905EC6DF40F0B58D6BDC /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = C06E850923204E25BD7B2F6F /* package.json */; };
+		9EDC51AF4BD64D41AC02D230 /* redirect-ports.sh in Resources */ = {isa = PBXBuildFile; fileRef = 418756C1FDF74B69A69E49FB /* redirect-ports.sh */; };
+		A39D907724E74AF38B45CA5F /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F094B65E946859CCF4809 /* button.png */; };
+		8FD23F1B1E8F460C9165BB61 /* VoiceTest.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0E240E8C2431EBD9F6C1E /* VoiceTest.tsx */; };
+		F9CFD798DC674621A8E82144 /* VoiceTestFuncComp.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 0FF87FD1221746009D7F27CE /* VoiceTestFuncComp.tsx */; };
+		F06B281FAA56413BB72DFC34 /* tsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = D22B034E6BDC4103B1863D32 /* tsconfig.json */; };
+		C3D8FD00D7834907B56CA0BB /* yarn.lock in Resources */ = {isa = PBXBuildFile; fileRef = DB7BE00229594D399C0D244D /* yarn.lock */; };
+		55A99388BE884B34A6951182 /* Voice.h in Resources */ = {isa = PBXBuildFile; fileRef = E1B91FCCB88348B9A9C367B3 /* Voice.h */; };
+		77A2C00D3A6D4791B931700D /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = EC83FEABD2A14CCD944856C8 /* Voice.m */; };
+		883E1C70E7114C13B895FBCD /* project.pbxproj in Resources */ = {isa = PBXBuildFile; fileRef = FC60758AC8EC47C19434A679 /* project.pbxproj */; };
+		98597A5BFB9A4A2189EED988 /* contents.xcworkspacedata in Resources */ = {isa = PBXBuildFile; fileRef = 53208E79D84E4144A1971360 /* contents.xcworkspacedata */; };
+		DB2586AE97B74C30B6B02C88 /* UserInterfaceState.xcuserstate in Resources */ = {isa = PBXBuildFile; fileRef = 7A534385141D4E1D96BA08F1 /* UserInterfaceState.xcuserstate */; };
+		78A30F1D9A5146A7AB039173 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A3E300CFCB244A72A2245704 /* LICENSE */; };
+		8B2201C2B82B487BBBB37998 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 74BF22477F4B483EBCD494C3 /* package.json */; };
+		318FD516793F43E0A4415D49 /* withVoice.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = CC9AE1A65FD340A497D9022F /* withVoice.d.ts */; };
+		7FA34742713B496C8319DC56 /* withVoice.js in Resources */ = {isa = PBXBuildFile; fileRef = A1055AED47974696AFA1B969 /* withVoice.js */; };
+		EB887D6C91AE48ACA7FC5B88 /* withVoice.ts in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B7CB5859D455EB5783094 /* withVoice.ts */; };
+		9834E41CCD684690AF3355F2 /* tsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FEB361CF2EE48538D758FD8 /* tsconfig.json */; };
+		9A96BE5A6D7B416B8E69725E /* react-native-voice.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7657581E19AA45D6BB3F6E51 /* react-native-voice.podspec */; };
+		111D99497EE44B3E8059A101 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6760F2E79F964172B4173FD0 /* README.md */; };
+		C90E3A8C2F3D4993915E9B7E /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = 107A169D68FC4DEA94DC3BDC /* index.ts */; };
+		C31F04A1D4564839A4E375ED /* VoiceModuleTypes.ts in Resources */ = {isa = PBXBuildFile; fileRef = 01C9BD204FE347A0B72CC030 /* VoiceModuleTypes.ts */; };
+		0A649642896F4036A3E96E9A /* tsconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D2B2AA980C849EF995C634C /* tsconfig.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ReactNativeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ReactNativeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReactNativeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeDemoTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeDemo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeDemo/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeDemo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeDemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeDemo/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo-ReactNativeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo-ReactNativeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo-ReactNativeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo-ReactNativeDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo-ReactNativeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo-ReactNativeDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		01E84FF787C943CBB482FE83 /* config.yml */ = {isa = PBXFileReference; name = "config.yml"; path = "../node_modules/@react-native-voice/voice/.circleci/config.yml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B454D240613C4B3897E8525D /* .eslintrc */ = {isa = PBXFileReference; name = ".eslintrc"; path = "../node_modules/@react-native-voice/voice/.eslintrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DABFAFE4F914664B812183C /* .prettierrc */ = {isa = PBXFileReference; name = ".prettierrc"; path = "../node_modules/@react-native-voice/voice/.prettierrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5209D060C8AE4F44BE712360 /* .releaserc */ = {isa = PBXFileReference; name = ".releaserc"; path = "../node_modules/@react-native-voice/voice/.releaserc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4632971EC4C24C20BD6DD531 /* android.iml */ = {isa = PBXFileReference; name = "android.iml"; path = "../node_modules/@react-native-voice/voice/android/android.iml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5A112FF055F4BEBB4E83036 /* build.gradle */ = {isa = PBXFileReference; name = "build.gradle"; path = "../node_modules/@react-native-voice/voice/android/build.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAB944DECE79418CB573DDB1 /* gradle-wrapper.properties */ = {isa = PBXFileReference; name = "gradle-wrapper.properties"; path = "../node_modules/@react-native-voice/voice/android/gradle/wrapper/gradle-wrapper.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0839F7FBA814745B451DE4D /* gradlew */ = {isa = PBXFileReference; name = "gradlew"; path = "../node_modules/@react-native-voice/voice/android/gradlew"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B70DFD5A8B9844859F4D88DF /* gradlew.bat */ = {isa = PBXFileReference; name = "gradlew.bat"; path = "../node_modules/@react-native-voice/voice/android/gradlew.bat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70FF9D1BDEDB4331AB0CE468 /* react-native-voice.iml */ = {isa = PBXFileReference; name = "react-native-voice.iml"; path = "../node_modules/@react-native-voice/voice/android/react-native-voice.iml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		869DE84957644920BCE5F8E1 /* AndroidManifest.xml */ = {isa = PBXFileReference; name = "AndroidManifest.xml"; path = "../node_modules/@react-native-voice/voice/android/src/main/AndroidManifest.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		387E8FDDAE8A49DD8031413B /* VoiceModule.java */ = {isa = PBXFileReference; name = "VoiceModule.java"; path = "../node_modules/@react-native-voice/voice/android/src/main/java/com/wenkesj/voice/VoiceModule.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA03E8BCBE934980BA33C9A8 /* VoicePackage.java */ = {isa = PBXFileReference; name = "VoicePackage.java"; path = "../node_modules/@react-native-voice/voice/android/src/main/java/com/wenkesj/voice/VoicePackage.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70C1074F5A0347D0ADAC3375 /* app.plugin.js */ = {isa = PBXFileReference; name = "app.plugin.js"; path = "../node_modules/@react-native-voice/voice/app.plugin.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55A710955446429D9634C026 /* index.d.ts */ = {isa = PBXFileReference; name = "index.d.ts"; path = "../node_modules/@react-native-voice/voice/dist/index.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0743473618AF4CF5A31302A1 /* index.d.ts.map */ = {isa = PBXFileReference; name = "index.d.ts.map"; path = "../node_modules/@react-native-voice/voice/dist/index.d.ts.map"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7D9E96D51DF483D8213613F /* index.js */ = {isa = PBXFileReference; name = "index.js"; path = "../node_modules/@react-native-voice/voice/dist/index.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DFF7B10507F483594C1D467 /* VoiceModuleTypes.d.ts */ = {isa = PBXFileReference; name = "VoiceModuleTypes.d.ts"; path = "../node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		840AC1DE9D164D23A73E6754 /* VoiceModuleTypes.d.ts.map */ = {isa = PBXFileReference; name = "VoiceModuleTypes.d.ts.map"; path = "../node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.d.ts.map"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E28652C579AF44FFA7DA510D /* VoiceModuleTypes.js */ = {isa = PBXFileReference; name = "VoiceModuleTypes.js"; path = "../node_modules/@react-native-voice/voice/dist/VoiceModuleTypes.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		129F548245814CB8930E9D3D /* .buckconfig */ = {isa = PBXFileReference; name = ".buckconfig"; path = "../node_modules/@react-native-voice/voice/example/.buckconfig"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E242B108F8F142EA831F6A91 /* .flowconfig */ = {isa = PBXFileReference; name = ".flowconfig"; path = "../node_modules/@react-native-voice/voice/example/.flowconfig"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C3E28C6B4BA436C85331DF9 /* .gitattributes */ = {isa = PBXFileReference; name = ".gitattributes"; path = "../node_modules/@react-native-voice/voice/example/.gitattributes"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB85D97E7D554C58AAA00B8F /* .prettierrc.js */ = {isa = PBXFileReference; name = ".prettierrc.js"; path = "../node_modules/@react-native-voice/voice/example/.prettierrc.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F76C5AB23D3445D0BC8A845A /* build.gradle */ = {isa = PBXFileReference; name = "build.gradle"; path = "../node_modules/@react-native-voice/voice/example/android/app/build.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14A6CEFE26064A039E24C2EE /* build_defs.bzl */ = {isa = PBXFileReference; name = "build_defs.bzl"; path = "../node_modules/@react-native-voice/voice/example/android/app/build_defs.bzl"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64FDAE56365E46569F43C6B4 /* debug.keystore */ = {isa = PBXFileReference; name = "debug.keystore"; path = "../node_modules/@react-native-voice/voice/example/android/app/debug.keystore"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2701FE2A24F64DD8B6BAA5F2 /* proguard-rules.pro */ = {isa = PBXFileReference; name = "proguard-rules.pro"; path = "../node_modules/@react-native-voice/voice/example/android/app/proguard-rules.pro"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FA6EA272B1A4C3CBF32D49B /* AndroidManifest.xml */ = {isa = PBXFileReference; name = "AndroidManifest.xml"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/debug/AndroidManifest.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78F596E1557D48B5BC4A2105 /* AndroidManifest.xml */ = {isa = PBXFileReference; name = "AndroidManifest.xml"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/AndroidManifest.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		515BD71DEA1246F1A54E1AFC /* ic_launcher.png */ = {isa = PBXFileReference; name = "ic_launcher.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		605583BA9B5C496CB52A9425 /* ic_launcher_round.png */ = {isa = PBXFileReference; name = "ic_launcher_round.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2878BC8AC50B420C95DDD49B /* ic_launcher.png */ = {isa = PBXFileReference; name = "ic_launcher.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC138B13794042758F3E5051 /* ic_launcher_round.png */ = {isa = PBXFileReference; name = "ic_launcher_round.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B09079BDB12C459B8BE0F614 /* ic_launcher.png */ = {isa = PBXFileReference; name = "ic_launcher.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0BEA36DD1E2E4F58B91670CB /* ic_launcher_round.png */ = {isa = PBXFileReference; name = "ic_launcher_round.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12C1DB06D8D747F4AB8778F2 /* ic_launcher.png */ = {isa = PBXFileReference; name = "ic_launcher.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23134D18FF9E4D3892A63C82 /* ic_launcher_round.png */ = {isa = PBXFileReference; name = "ic_launcher_round.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6FA028B1B3364B04AD31A5F1 /* ic_launcher.png */ = {isa = PBXFileReference; name = "ic_launcher.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D857F489D2A44D6AB1724AF6 /* ic_launcher_round.png */ = {isa = PBXFileReference; name = "ic_launcher_round.png"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FABDD7FA21D946A797611EB7 /* strings.xml */ = {isa = PBXFileReference; name = "strings.xml"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/values/strings.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		896654D2948741558E1AA634 /* styles.xml */ = {isa = PBXFileReference; name = "styles.xml"; path = "../node_modules/@react-native-voice/voice/example/android/app/src/main/res/values/styles.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36B6D244D81C487A9772F9A6 /* _BUCK */ = {isa = PBXFileReference; name = "_BUCK"; path = "../node_modules/@react-native-voice/voice/example/android/app/_BUCK"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8030C7BE73884765B967E79B /* build.gradle */ = {isa = PBXFileReference; name = "build.gradle"; path = "../node_modules/@react-native-voice/voice/example/android/build.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27323E09CB2C409BACB456E9 /* gradle-wrapper.properties */ = {isa = PBXFileReference; name = "gradle-wrapper.properties"; path = "../node_modules/@react-native-voice/voice/example/android/gradle/wrapper/gradle-wrapper.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A7083E8B6854C44864B10B7 /* gradle.properties */ = {isa = PBXFileReference; name = "gradle.properties"; path = "../node_modules/@react-native-voice/voice/example/android/gradle.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6937E1F772374679A1556FA3 /* gradlew */ = {isa = PBXFileReference; name = "gradlew"; path = "../node_modules/@react-native-voice/voice/example/android/gradlew"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43DCDE3264DF410F93FB9D46 /* gradlew.bat */ = {isa = PBXFileReference; name = "gradlew.bat"; path = "../node_modules/@react-native-voice/voice/example/android/gradlew.bat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6E938DBD91F4BAF90DE46E4 /* settings.gradle */ = {isa = PBXFileReference; name = "settings.gradle"; path = "../node_modules/@react-native-voice/voice/example/android/settings.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70A123ECF0B04729B26525B0 /* app.json */ = {isa = PBXFileReference; name = "app.json"; path = "../node_modules/@react-native-voice/voice/example/app.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D6E3B81B8D74C7582164311 /* babel.config.js */ = {isa = PBXFileReference; name = "babel.config.js"; path = "../node_modules/@react-native-voice/voice/example/babel.config.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C14C76FBDB704537A5731750 /* index.js */ = {isa = PBXFileReference; name = "index.js"; path = "../node_modules/@react-native-voice/voice/example/index.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4992004F30DC4F1482A9E2DC /* Podfile */ = {isa = PBXFileReference; name = "Podfile"; path = "../node_modules/@react-native-voice/voice/example/ios/Podfile"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D0B7F6DC8C84408BD2DCDC6 /* Podfile.lock */ = {isa = PBXFileReference; name = "Podfile.lock"; path = "../node_modules/@react-native-voice/voice/example/ios/Podfile.lock"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE27DA0724104C22930BC17D /* Info.plist */ = {isa = PBXFileReference; name = "Info.plist"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest-tvOS/Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		3454636F3962463EAAF95358 /* Info.plist */ = {isa = PBXFileReference; name = "Info.plist"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest-tvOSTests/Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		02EADFADAE414CB5968C79B4 /* project.pbxproj */ = {isa = PBXFileReference; name = "project.pbxproj"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/project.pbxproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		488AB573F23B485D8964BF3C /* VoiceTest-tvOS.xcscheme */ = {isa = PBXFileReference; name = "VoiceTest-tvOS.xcscheme"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/xcshareddata/xcschemes/VoiceTest-tvOS.xcscheme"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB6D0755E63B41B4B6EC72D0 /* VoiceTest.xcscheme */ = {isa = PBXFileReference; name = "VoiceTest.xcscheme"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcodeproj/xcshareddata/xcschemes/VoiceTest.xcscheme"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02C32D4E0A294927B8A22945 /* contents.xcworkspacedata */ = {isa = PBXFileReference; name = "contents.xcworkspacedata"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTest.xcworkspace/contents.xcworkspacedata"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D14310F0BB6E4A4F89E798E7 /* Info.plist */ = {isa = PBXFileReference; name = "Info.plist"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTestTests/Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		565E1272B88041E4A813F8F1 /* VoiceTestTests.m */ = {isa = PBXFileReference; name = "VoiceTestTests.m"; path = "../node_modules/@react-native-voice/voice/example/ios/VoiceTestTests/VoiceTestTests.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		1C43FDB4DED9453390965FE6 /* metro.config.js */ = {isa = PBXFileReference; name = "metro.config.js"; path = "../node_modules/@react-native-voice/voice/example/metro.config.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C06E850923204E25BD7B2F6F /* package.json */ = {isa = PBXFileReference; name = "package.json"; path = "../node_modules/@react-native-voice/voice/example/package.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		418756C1FDF74B69A69E49FB /* redirect-ports.sh */ = {isa = PBXFileReference; name = "redirect-ports.sh"; path = "../node_modules/@react-native-voice/voice/example/redirect-ports.sh"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.script.sh; explicitFileType = undefined; includeInIndex = 0; };
+		5F6F094B65E946859CCF4809 /* button.png */ = {isa = PBXFileReference; name = "button.png"; path = "../node_modules/@react-native-voice/voice/example/src/button.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DC0E240E8C2431EBD9F6C1E /* VoiceTest.tsx */ = {isa = PBXFileReference; name = "VoiceTest.tsx"; path = "../node_modules/@react-native-voice/voice/example/src/VoiceTest.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FF87FD1221746009D7F27CE /* VoiceTestFuncComp.tsx */ = {isa = PBXFileReference; name = "VoiceTestFuncComp.tsx"; path = "../node_modules/@react-native-voice/voice/example/src/VoiceTestFuncComp.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D22B034E6BDC4103B1863D32 /* tsconfig.json */ = {isa = PBXFileReference; name = "tsconfig.json"; path = "../node_modules/@react-native-voice/voice/example/tsconfig.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB7BE00229594D399C0D244D /* yarn.lock */ = {isa = PBXFileReference; name = "yarn.lock"; path = "../node_modules/@react-native-voice/voice/example/yarn.lock"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1B91FCCB88348B9A9C367B3 /* Voice.h */ = {isa = PBXFileReference; name = "Voice.h"; path = "../node_modules/@react-native-voice/voice/ios/Voice/Voice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EC83FEABD2A14CCD944856C8 /* Voice.m */ = {isa = PBXFileReference; name = "Voice.m"; path = "../node_modules/@react-native-voice/voice/ios/Voice/Voice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FC60758AC8EC47C19434A679 /* project.pbxproj */ = {isa = PBXFileReference; name = "project.pbxproj"; path = "../node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.pbxproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53208E79D84E4144A1971360 /* contents.xcworkspacedata */ = {isa = PBXFileReference; name = "contents.xcworkspacedata"; path = "../node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.xcworkspace/contents.xcworkspacedata"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A534385141D4E1D96BA08F1 /* UserInterfaceState.xcuserstate */ = {isa = PBXFileReference; name = "UserInterfaceState.xcuserstate"; path = "../node_modules/@react-native-voice/voice/ios/Voice.xcodeproj/project.xcworkspace/xcuserdata/rudie_shahinian.xcuserdatad/UserInterfaceState.xcuserstate"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3E300CFCB244A72A2245704 /* LICENSE */ = {isa = PBXFileReference; name = "LICENSE"; path = "../node_modules/@react-native-voice/voice/LICENSE"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74BF22477F4B483EBCD494C3 /* package.json */ = {isa = PBXFileReference; name = "package.json"; path = "../node_modules/@react-native-voice/voice/package.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC9AE1A65FD340A497D9022F /* withVoice.d.ts */ = {isa = PBXFileReference; name = "withVoice.d.ts"; path = "../node_modules/@react-native-voice/voice/plugin/build/withVoice.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1055AED47974696AFA1B969 /* withVoice.js */ = {isa = PBXFileReference; name = "withVoice.js"; path = "../node_modules/@react-native-voice/voice/plugin/build/withVoice.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D8B7CB5859D455EB5783094 /* withVoice.ts */ = {isa = PBXFileReference; name = "withVoice.ts"; path = "../node_modules/@react-native-voice/voice/plugin/src/withVoice.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4FEB361CF2EE48538D758FD8 /* tsconfig.json */ = {isa = PBXFileReference; name = "tsconfig.json"; path = "../node_modules/@react-native-voice/voice/plugin/tsconfig.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7657581E19AA45D6BB3F6E51 /* react-native-voice.podspec */ = {isa = PBXFileReference; name = "react-native-voice.podspec"; path = "../node_modules/@react-native-voice/voice/react-native-voice.podspec"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6760F2E79F964172B4173FD0 /* README.md */ = {isa = PBXFileReference; name = "README.md"; path = "../node_modules/@react-native-voice/voice/README.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		107A169D68FC4DEA94DC3BDC /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../node_modules/@react-native-voice/voice/src/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01C9BD204FE347A0B72CC030 /* VoiceModuleTypes.ts */ = {isa = PBXFileReference; name = "VoiceModuleTypes.ts"; path = "../node_modules/@react-native-voice/voice/src/VoiceModuleTypes.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D2B2AA980C849EF995C634C /* tsconfig.json */ = {isa = PBXFileReference; name = "tsconfig.json"; path = "../node_modules/@react-native-voice/voice/tsconfig.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-ReactNativeDemo-ReactNativeDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ReactNativeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ReactNativeDemoTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ReactNativeDemoTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ReactNativeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ReactNativeDemo;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo-ReactNativeDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ReactNativeDemo */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ReactNativeDemoTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				5CA14B763B174F95AC439CCB /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ReactNativeDemo.app */,
+				00E356EE1AD99517003FC87E /* ReactNativeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo-ReactNativeDemoTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo-ReactNativeDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CA14B763B174F95AC439CCB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				01E84FF787C943CBB482FE83 /* config.yml */,
+				B454D240613C4B3897E8525D /* .eslintrc */,
+				0DABFAFE4F914664B812183C /* .prettierrc */,
+				5209D060C8AE4F44BE712360 /* .releaserc */,
+				4632971EC4C24C20BD6DD531 /* android.iml */,
+				F5A112FF055F4BEBB4E83036 /* build.gradle */,
+				DAB944DECE79418CB573DDB1 /* gradle-wrapper.properties */,
+				A0839F7FBA814745B451DE4D /* gradlew */,
+				B70DFD5A8B9844859F4D88DF /* gradlew.bat */,
+				70FF9D1BDEDB4331AB0CE468 /* react-native-voice.iml */,
+				869DE84957644920BCE5F8E1 /* AndroidManifest.xml */,
+				387E8FDDAE8A49DD8031413B /* VoiceModule.java */,
+				AA03E8BCBE934980BA33C9A8 /* VoicePackage.java */,
+				70C1074F5A0347D0ADAC3375 /* app.plugin.js */,
+				55A710955446429D9634C026 /* index.d.ts */,
+				0743473618AF4CF5A31302A1 /* index.d.ts.map */,
+				A7D9E96D51DF483D8213613F /* index.js */,
+				8DFF7B10507F483594C1D467 /* VoiceModuleTypes.d.ts */,
+				840AC1DE9D164D23A73E6754 /* VoiceModuleTypes.d.ts.map */,
+				E28652C579AF44FFA7DA510D /* VoiceModuleTypes.js */,
+				129F548245814CB8930E9D3D /* .buckconfig */,
+				E242B108F8F142EA831F6A91 /* .flowconfig */,
+				5C3E28C6B4BA436C85331DF9 /* .gitattributes */,
+				FB85D97E7D554C58AAA00B8F /* .prettierrc.js */,
+				F76C5AB23D3445D0BC8A845A /* build.gradle */,
+				14A6CEFE26064A039E24C2EE /* build_defs.bzl */,
+				64FDAE56365E46569F43C6B4 /* debug.keystore */,
+				2701FE2A24F64DD8B6BAA5F2 /* proguard-rules.pro */,
+				3FA6EA272B1A4C3CBF32D49B /* AndroidManifest.xml */,
+				78F596E1557D48B5BC4A2105 /* AndroidManifest.xml */,
+				515BD71DEA1246F1A54E1AFC /* ic_launcher.png */,
+				605583BA9B5C496CB52A9425 /* ic_launcher_round.png */,
+				2878BC8AC50B420C95DDD49B /* ic_launcher.png */,
+				CC138B13794042758F3E5051 /* ic_launcher_round.png */,
+				B09079BDB12C459B8BE0F614 /* ic_launcher.png */,
+				0BEA36DD1E2E4F58B91670CB /* ic_launcher_round.png */,
+				12C1DB06D8D747F4AB8778F2 /* ic_launcher.png */,
+				23134D18FF9E4D3892A63C82 /* ic_launcher_round.png */,
+				6FA028B1B3364B04AD31A5F1 /* ic_launcher.png */,
+				D857F489D2A44D6AB1724AF6 /* ic_launcher_round.png */,
+				FABDD7FA21D946A797611EB7 /* strings.xml */,
+				896654D2948741558E1AA634 /* styles.xml */,
+				36B6D244D81C487A9772F9A6 /* _BUCK */,
+				8030C7BE73884765B967E79B /* build.gradle */,
+				27323E09CB2C409BACB456E9 /* gradle-wrapper.properties */,
+				8A7083E8B6854C44864B10B7 /* gradle.properties */,
+				6937E1F772374679A1556FA3 /* gradlew */,
+				43DCDE3264DF410F93FB9D46 /* gradlew.bat */,
+				D6E938DBD91F4BAF90DE46E4 /* settings.gradle */,
+				70A123ECF0B04729B26525B0 /* app.json */,
+				8D6E3B81B8D74C7582164311 /* babel.config.js */,
+				C14C76FBDB704537A5731750 /* index.js */,
+				4992004F30DC4F1482A9E2DC /* Podfile */,
+				1D0B7F6DC8C84408BD2DCDC6 /* Podfile.lock */,
+				EE27DA0724104C22930BC17D /* Info.plist */,
+				3454636F3962463EAAF95358 /* Info.plist */,
+				02EADFADAE414CB5968C79B4 /* project.pbxproj */,
+				488AB573F23B485D8964BF3C /* VoiceTest-tvOS.xcscheme */,
+				CB6D0755E63B41B4B6EC72D0 /* VoiceTest.xcscheme */,
+				02C32D4E0A294927B8A22945 /* contents.xcworkspacedata */,
+				D14310F0BB6E4A4F89E798E7 /* Info.plist */,
+				565E1272B88041E4A813F8F1 /* VoiceTestTests.m */,
+				1C43FDB4DED9453390965FE6 /* metro.config.js */,
+				C06E850923204E25BD7B2F6F /* package.json */,
+				418756C1FDF74B69A69E49FB /* redirect-ports.sh */,
+				5F6F094B65E946859CCF4809 /* button.png */,
+				3DC0E240E8C2431EBD9F6C1E /* VoiceTest.tsx */,
+				0FF87FD1221746009D7F27CE /* VoiceTestFuncComp.tsx */,
+				D22B034E6BDC4103B1863D32 /* tsconfig.json */,
+				DB7BE00229594D399C0D244D /* yarn.lock */,
+				E1B91FCCB88348B9A9C367B3 /* Voice.h */,
+				EC83FEABD2A14CCD944856C8 /* Voice.m */,
+				FC60758AC8EC47C19434A679 /* project.pbxproj */,
+				53208E79D84E4144A1971360 /* contents.xcworkspacedata */,
+				7A534385141D4E1D96BA08F1 /* UserInterfaceState.xcuserstate */,
+				A3E300CFCB244A72A2245704 /* LICENSE */,
+				74BF22477F4B483EBCD494C3 /* package.json */,
+				CC9AE1A65FD340A497D9022F /* withVoice.d.ts */,
+				A1055AED47974696AFA1B969 /* withVoice.js */,
+				0D8B7CB5859D455EB5783094 /* withVoice.ts */,
+				4FEB361CF2EE48538D758FD8 /* tsconfig.json */,
+				7657581E19AA45D6BB3F6E51 /* react-native-voice.podspec */,
+				6760F2E79F964172B4173FD0 /* README.md */,
+				107A169D68FC4DEA94DC3BDC /* index.ts */,
+				01C9BD204FE347A0B72CC030 /* VoiceModuleTypes.ts */,
+				6D2B2AA980C849EF995C634C /* tsconfig.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ReactNativeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeDemoTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ReactNativeDemoTests;
+			productName = ReactNativeDemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReactNativeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ReactNativeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeDemo" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeDemo;
+			productName = ReactNativeDemo;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeDemo" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ReactNativeDemo */,
+				00E356ED1AD99517003FC87E /* ReactNativeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				38CA8DA2823D48899C70759A /* config.yml in Resources */,
+				57939784A2B6459AB41D248D /* .eslintrc in Resources */,
+				006AA73BA92B45028B8EAA92 /* .prettierrc in Resources */,
+				9734E11BFD6A4CE7B6A3B12E /* .releaserc in Resources */,
+				2C788F923C714C6EBFEA90F8 /* android.iml in Resources */,
+				782789EEA93B41BFB2439907 /* build.gradle in Resources */,
+				66AC54FFB5AA40C1B1686F87 /* gradle-wrapper.properties in Resources */,
+				8D8D757C8B5F452589A0CED5 /* gradlew in Resources */,
+				73655E78941A4E69BED2D877 /* gradlew.bat in Resources */,
+				5554044142904BA5997D356E /* react-native-voice.iml in Resources */,
+				9446FC9B20954D219D096B3D /* AndroidManifest.xml in Resources */,
+				5AB575D3FBF640AFBC7F3A7B /* VoiceModule.java in Resources */,
+				6AE73DBCA1484BAF834265D1 /* VoicePackage.java in Resources */,
+				A2DC1DEB57274C52A2523148 /* app.plugin.js in Resources */,
+				13CD38F855784DBCA60F29FD /* index.d.ts in Resources */,
+				C4D723BDA04C481D8D668E88 /* index.d.ts.map in Resources */,
+				C331DE08B7E04BE393D5C8AF /* index.js in Resources */,
+				DD9F62E669D441DE84B1A826 /* VoiceModuleTypes.d.ts in Resources */,
+				A61DF04EA2D645C188C5275E /* VoiceModuleTypes.d.ts.map in Resources */,
+				AE853CB592064070A9E7E914 /* VoiceModuleTypes.js in Resources */,
+				1F4B940DBE72464DABECAC49 /* .buckconfig in Resources */,
+				211A5C898581493EBB3BAEFC /* .flowconfig in Resources */,
+				373EFD06A7D44BB093EA8F11 /* .gitattributes in Resources */,
+				521FC158E5884D0FA153D188 /* .prettierrc.js in Resources */,
+				C143125445114642AA95E9F8 /* build.gradle in Resources */,
+				F0774D8C28E046F7AC872A62 /* build_defs.bzl in Resources */,
+				AC4F5EDCE61D4EF39EB32887 /* debug.keystore in Resources */,
+				5F120D426796469E928442F6 /* proguard-rules.pro in Resources */,
+				C7F0AAF7AF17432B9985200E /* AndroidManifest.xml in Resources */,
+				A6F10133E87F4E2983A8A07C /* AndroidManifest.xml in Resources */,
+				221234F53FEE42C0B3479335 /* ic_launcher.png in Resources */,
+				D3C597614C1A43B5B814E532 /* ic_launcher_round.png in Resources */,
+				92AD24BCCD4A4CFFBB4BCB7D /* ic_launcher.png in Resources */,
+				D1C73EB407CC419497E6292B /* ic_launcher_round.png in Resources */,
+				27862C60C6F3423880274944 /* ic_launcher.png in Resources */,
+				8966F349FBB7404F9161C978 /* ic_launcher_round.png in Resources */,
+				057EBA2DD9E24B2E9B264651 /* ic_launcher.png in Resources */,
+				FA21C2DBC95F4D6AB67AF651 /* ic_launcher_round.png in Resources */,
+				999E7F7A9B4D417A9BBA650E /* ic_launcher.png in Resources */,
+				8582F002BDE24CCF9EDA7183 /* ic_launcher_round.png in Resources */,
+				16682AAF346F40768A029F9C /* strings.xml in Resources */,
+				13F0F3D66C524B84AED95835 /* styles.xml in Resources */,
+				11F6CA053BA54B85AEADF7FD /* _BUCK in Resources */,
+				B6BFFB4216C545A58F779A25 /* build.gradle in Resources */,
+				08E065C2BB9E4B53A9F8F7CE /* gradle-wrapper.properties in Resources */,
+				53978567AF5C448EB0CF4951 /* gradle.properties in Resources */,
+				C4AF75EC29534EDBB9C0111A /* gradlew in Resources */,
+				FA6FEAAFD9A847A883C81178 /* gradlew.bat in Resources */,
+				FFA377AF1122437FB5137CB8 /* settings.gradle in Resources */,
+				0A33BDED8E1C4BF099E3235E /* app.json in Resources */,
+				3D80E603A1B1405299D9A4E5 /* babel.config.js in Resources */,
+				849629164DE140C780EF8A6A /* index.js in Resources */,
+				7A02F72784124FB386922049 /* Podfile in Resources */,
+				FF4F04D9DFAF4587AE356FCB /* Podfile.lock in Resources */,
+				1E0C1C853BF54714ACBDF396 /* Info.plist in Resources */,
+				93452DFE22A847C1BEA76F0B /* Info.plist in Resources */,
+				12ACD5B334E149A7A80C636A /* project.pbxproj in Resources */,
+				9ACFC53EA9E749E38F825850 /* VoiceTest-tvOS.xcscheme in Resources */,
+				2A3605B862FF454B8528DE06 /* VoiceTest.xcscheme in Resources */,
+				867EFBE001B747EBB546546C /* contents.xcworkspacedata in Resources */,
+				946870E841A94E498D669A60 /* Info.plist in Resources */,
+				1D0E23E40EBC4E549F8E8F58 /* VoiceTestTests.m in Sources */,
+				C7EBFD7366474896B5F88376 /* metro.config.js in Resources */,
+				9EB5905EC6DF40F0B58D6BDC /* package.json in Resources */,
+				9EDC51AF4BD64D41AC02D230 /* redirect-ports.sh in Resources */,
+				A39D907724E74AF38B45CA5F /* button.png in Resources */,
+				8FD23F1B1E8F460C9165BB61 /* VoiceTest.tsx in Resources */,
+				F9CFD798DC674621A8E82144 /* VoiceTestFuncComp.tsx in Resources */,
+				F06B281FAA56413BB72DFC34 /* tsconfig.json in Resources */,
+				C3D8FD00D7834907B56CA0BB /* yarn.lock in Resources */,
+				55A99388BE884B34A6951182 /* Voice.h in Resources */,
+				77A2C00D3A6D4791B931700D /* Voice.m in Sources */,
+				883E1C70E7114C13B895FBCD /* project.pbxproj in Resources */,
+				98597A5BFB9A4A2189EED988 /* contents.xcworkspacedata in Resources */,
+				DB2586AE97B74C30B6B02C88 /* UserInterfaceState.xcuserstate in Resources */,
+				78A30F1D9A5146A7AB039173 /* LICENSE in Resources */,
+				8B2201C2B82B487BBBB37998 /* package.json in Resources */,
+				318FD516793F43E0A4415D49 /* withVoice.d.ts in Resources */,
+				7FA34742713B496C8319DC56 /* withVoice.js in Resources */,
+				EB887D6C91AE48ACA7FC5B88 /* withVoice.ts in Resources */,
+				9834E41CCD684690AF3355F2 /* tsconfig.json in Resources */,
+				9A96BE5A6D7B416B8E69725E /* react-native-voice.podspec in Resources */,
+				111D99497EE44B3E8059A101 /* README.md in Resources */,
+				C90E3A8C2F3D4993915E9B7E /* index.ts in Resources */,
+				C31F04A1D4564839A4E375ED /* VoiceModuleTypes.ts in Resources */,
+				0A649642896F4036A3E96E9A /* tsconfig.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeDemo-ReactNativeDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo/Pods-ReactNativeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo-ReactNativeDemoTests/Pods-ReactNativeDemo-ReactNativeDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ReactNativeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ReactNativeDemo */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo-ReactNativeDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactNativeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeDemo.app/ReactNativeDemo";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo-ReactNativeDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ReactNativeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeDemo.app/ReactNativeDemo";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ReactNativeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeDemo;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ReactNativeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeDemo;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
