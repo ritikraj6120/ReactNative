@@ -1,6 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Voice from '@react-native-voice/voice';
-import {StyleSheet, Text, TouchableHighlight, View} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  TouchableHighlight,
+  View,
+  Image,
+  ScrollView,
+} from 'react-native';
 const Home = () => {
   const [pitch, setPitch] = useState('');
   const [error, setError] = useState('');
@@ -89,15 +96,12 @@ const Home = () => {
           />
         </TouchableHighlight>
       )}
-      <ScrollView >
+      <ScrollView>
         {partialResults.map((result, index) => {
-          return (
-            <Text key={`partial-result-${index}`}>
-              {result}
-            </Text>
-          );
+          return <Text key={`partial-result-${index}`}>{result}</Text>;
         })}
       </ScrollView>
+      <Text> hello to you world</Text>
     </>
   );
 };
